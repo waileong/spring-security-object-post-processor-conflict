@@ -1,0 +1,12 @@
+pluginManagement {
+    repositories {
+        maven {
+            url 'https://repo.spring.io/snapshot'
+        }
+        gradlePluginPortal() // Default Gradle Plugin Portal
+        mavenCentral()       // Maven Central Repository
+        mavenLocal()
+    }
+}
+
+rootProject.name = 'spring-security-object-post-processor-conflict'
